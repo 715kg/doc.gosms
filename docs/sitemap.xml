@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.gosms.ru/2.1/</loc>
+         <loc>https://docs.gosms.ru/</loc>
          <lastmod>2024-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.gosms.ru/2.1/request/</loc>
+         <loc>https://docs.gosms.ru/request/</loc>
          <lastmod>2024-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.gosms.ru/2.1/responses/</loc>
+         <loc>https://docs.gosms.ru/responses/</loc>
          <lastmod>2024-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.gosms.ru/2.1/en/</loc>
+         <loc>https://docs.gosms.ru/en/</loc>
          <lastmod>2024-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
