@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://docs.gosms.ru/service/sms/">
+        <link rel="canonical" href="https://docs.gosms.ru/en/service/sms/">
       
       
         <link rel="prev" href="../../rate-limit/">
@@ -17,19 +17,19 @@
         <link rel="next" href="../device/">
       
       
-      <link rel="icon" href="../../assets/img/logo/logo_go_sms.webp">
+      <link rel="icon" href="../../../assets/img/logo/logo_go_sms.webp">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25">
     
     
       
-        <title>Сообщения SMS - Документация API GoSMS</title>
+        <title>SMS Messages - Документация API GoSMS</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,14 +48,14 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -64,7 +64,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -83,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#sending-sms" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -103,9 +103,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
-    <a href="../.." title="Документация API GoSMS" class="md-header__button md-logo" aria-label="Документация API GoSMS" data-md-component="logo">
+    <a href="../../.." title="Документация API GoSMS" class="md-header__button md-logo" aria-label="Документация API GoSMS" data-md-component="logo">
       
-  <img src="../../assets/img/logo/logo_go_sms.webp" alt="logo">
+  <img src="../../../assets/img/logo/logo_go_sms.webp" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Сообщения SMS
+              SMS Messages
             
           </span>
         </div>
@@ -249,9 +249,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Документация API GoSMS" class="md-nav__button md-logo" aria-label="Документация API GoSMS" data-md-component="logo">
+    <a href="../../.." title="Документация API GoSMS" class="md-nav__button md-logo" aria-label="Документация API GoSMS" data-md-component="logo">
       
-  <img src="../../assets/img/logo/logo_go_sms.webp" alt="logo">
+  <img src="../../../assets/img/logo/logo_go_sms.webp" alt="logo">
 
     </a>
     Документация API GoSMS
@@ -263,8 +263,6 @@
       
   
   
-    
-  
   
   
     
@@ -276,11 +274,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
         
           
           <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
@@ -294,7 +294,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             Ru version
@@ -308,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 15v-4h3v4H13V9h2L8 3 1 9h2v6h3.5M9 16v2h6v-2l3 3-3 3v-2H9v2l-3-3 3-3m14-7h-2v6h-6v-5h4l-5.46-4.89L16 3l7 6Z"/></svg>
@@ -331,7 +331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../request/" class="md-nav__link">
+      <a href="../../../request/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.8 7V5.5C14.8 4.1 13.4 3 12 3S9.2 4.1 9.2 5.5V7C8.6 7 8 7.6 8 8.2v3.5c0 .7.6 1.3 1.2 1.3h5.5c.7 0 1.3-.6 1.3-1.2V8.3c0-.7-.6-1.3-1.2-1.3m-1.3 0h-3V5.5c0-.8.7-1.3 1.5-1.3s1.5.5 1.5 1.3V7M6 17v3l-4-4 4-4v3h12v-3l4 4-4 4v-3H6Z"/></svg>
@@ -354,7 +354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../responses/" class="md-nav__link">
+      <a href="../../../responses/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 13.5a6.5 6.5 0 0 1-6.5 6.5H6v-2h7.5c2.5 0 4.5-2 4.5-4.5S16 9 13.5 9H7.83l3.08 3.09L9.5 13.5 4 8l5.5-5.5 1.42 1.41L7.83 7h5.67a6.5 6.5 0 0 1 6.5 6.5Z"/></svg>
@@ -377,7 +377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../auth/" class="md-nav__link">
+      <a href="../../../auth/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4m0 6c1.4 0 2.8 1.1 2.8 2.5V11c.6 0 1.2.6 1.2 1.3v3.5c0 .6-.6 1.2-1.3 1.2H9.2c-.6 0-1.2-.6-1.2-1.3v-3.5c0-.6.6-1.2 1.2-1.2V9.5C9.2 8.1 10.6 7 12 7m0 1.2c-.8 0-1.5.5-1.5 1.3V11h3V9.5c0-.8-.7-1.3-1.5-1.3Z"/></svg>
@@ -400,7 +400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../code-error/" class="md-nav__link">
+      <a href="../../../code-error/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15h2v2h-2v-2m0-8h2v6h-2V7m1-5C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8Z"/></svg>
@@ -423,7 +423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../rate-limit/" class="md-nav__link">
+      <a href="../../../rate-limit/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 16c1.66 0 3-1.34 3-3 0-1.12-.61-2.1-1.5-2.61L3.79 4.77l5.53 9.58c.5.98 1.51 1.65 2.68 1.65m0-13c-1.81 0-3.5.5-4.97 1.32l2.1 1.21C10 5.19 11 5 12 5c4.42 0 8 3.58 8 8 0 2.21-.89 4.21-2.34 5.65h-.01a.996.996 0 0 0 0 1.41c.39.39 1.03.39 1.42.01A9.969 9.969 0 0 0 22 13c0-5.5-4.5-10-10-10M2 13c0 2.76 1.12 5.26 2.93 7.07.39.38 1.02.38 1.41-.01a.996.996 0 0 0 0-1.41A7.95 7.95 0 0 1 4 13c0-1 .19-2 .54-2.9L3.33 8C2.5 9.5 2 11.18 2 13Z"/></svg>
@@ -443,8 +443,6 @@
                 
   
   
-    
-  
   
   
     
@@ -453,11 +451,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_7" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_7" >
         
           
           <label class="md-nav__link" for="__nav_1_7" id="__nav_1_7_label" tabindex="0">
@@ -471,7 +471,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_7_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1_7">
             <span class="md-nav__icon md-icon"></span>
             Работа с сервисами
@@ -482,30 +482,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 11h-2V9h2m-4 2h-2V9h2m-4 2H7V9h2m11-7H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg>
-  
-  <span class="md-ellipsis">
-    Сообщения SMS
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../service/sms/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 11h-2V9h2m-4 2h-2V9h2m-4 2H7V9h2m11-7H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg>
@@ -516,156 +496,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Содержание">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Содержание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Отправка СМС
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Отправка СМС">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Пример запроса
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      Успешный ответ
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      Запрос информации об СМС
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Запрос информации об СМС">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      Пример запроса
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      Успешный ответ
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      Удаление СМС
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Удаление СМС">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      Пример запроса
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    <span class="md-ellipsis">
-      Успешный ответ
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
-    <span class="md-ellipsis">
-      Запрос списка СМС
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Запрос списка СМС">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
-    <span class="md-ellipsis">
-      Успешный ответ
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ошибки в запросах
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -678,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../device/" class="md-nav__link">
+      <a href="../../../service/device/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.82 12.5c.02-.17.04-.33.04-.5 0-.17-.02-.33-.04-.5l1.08-.81c.1-.07.1-.19.06-.32L9.93 8.64c-.06-.11-.2-.14-.31-.11l-1.28.5c-.27-.2-.56-.36-.87-.49l-.2-1.33c0-.12-.11-.21-.24-.21H5c-.15 0-.26.09-.28.21L4.5 8.53c-.29.12-.58.3-.85.47l-1.28-.5c-.12-.03-.25 0-.31.13l-1.03 1.73c-.06.14-.03.25.07.33l1.08.81c-.02.17-.03.34-.03.5 0 .17.02.33.04.5l-1.09.82c-.1.07-.1.21-.06.32l1.03 1.73c.06.13.2.13.31.13l1.28-.5c.27.18.56.34.87.47l.2 1.32c.01.12.12.21.27.21h2.04c.13 0 .24-.09.25-.21l.21-1.32c.3-.12.59-.3.86-.47l1.28.5c.12.03.25 0 .31-.13L11 13.64c.04-.11 0-.24-.08-.32l-1.1-.82M6 13.75c-1 0-1.8-.78-1.8-1.75S5 10.25 6 10.25s1.8.78 1.8 1.75S7 13.75 6 13.75M17 1H7a2 2 0 0 0-2 2v3h2V4h10v16H7v-2H5v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Z"/></svg>
@@ -713,8 +543,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -724,13 +556,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -744,7 +574,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             En version
@@ -758,7 +588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../en/" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 15v-4h3v4H13V9h2L8 3 1 9h2v6h3.5M9 16v2h6v-2l3 3-3 3v-2H9v2l-3-3 3-3m14-7h-2v6h-6v-5h4l-5.46-4.89L16 3l7 6Z"/></svg>
@@ -781,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../en/request/" class="md-nav__link">
+      <a href="../../request/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.8 7V5.5C14.8 4.1 13.4 3 12 3S9.2 4.1 9.2 5.5V7C8.6 7 8 7.6 8 8.2v3.5c0 .7.6 1.3 1.2 1.3h5.5c.7 0 1.3-.6 1.3-1.2V8.3c0-.7-.6-1.3-1.2-1.3m-1.3 0h-3V5.5c0-.8.7-1.3 1.5-1.3s1.5.5 1.5 1.3V7M6 17v3l-4-4 4-4v3h12v-3l4 4-4 4v-3H6Z"/></svg>
@@ -804,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../en/responses/" class="md-nav__link">
+      <a href="../../responses/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 13.5a6.5 6.5 0 0 1-6.5 6.5H6v-2h7.5c2.5 0 4.5-2 4.5-4.5S16 9 13.5 9H7.83l3.08 3.09L9.5 13.5 4 8l5.5-5.5 1.42 1.41L7.83 7h5.67a6.5 6.5 0 0 1 6.5 6.5Z"/></svg>
@@ -827,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../en/auth/" class="md-nav__link">
+      <a href="../../auth/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4m0 6c1.4 0 2.8 1.1 2.8 2.5V11c.6 0 1.2.6 1.2 1.3v3.5c0 .6-.6 1.2-1.3 1.2H9.2c-.6 0-1.2-.6-1.2-1.3v-3.5c0-.6.6-1.2 1.2-1.2V9.5C9.2 8.1 10.6 7 12 7m0 1.2c-.8 0-1.5.5-1.5 1.3V11h3V9.5c0-.8-.7-1.3-1.5-1.3Z"/></svg>
@@ -850,7 +680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../en/code-error/" class="md-nav__link">
+      <a href="../../code-error/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15h2v2h-2v-2m0-8h2v6h-2V7m1-5C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8Z"/></svg>
@@ -873,7 +703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../en/rate-limit/" class="md-nav__link">
+      <a href="../../rate-limit/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 16c1.66 0 3-1.34 3-3 0-1.12-.61-2.1-1.5-2.61L3.79 4.77l5.53 9.58c.5.98 1.51 1.65 2.68 1.65m0-13c-1.81 0-3.5.5-4.97 1.32l2.1 1.21C10 5.19 11 5 12 5c4.42 0 8 3.58 8 8 0 2.21-.89 4.21-2.34 5.65h-.01a.996.996 0 0 0 0 1.41c.39.39 1.03.39 1.42.01A9.969 9.969 0 0 0 22 13c0-5.5-4.5-10-10-10M2 13c0 2.76 1.12 5.26 2.93 7.07.39.38 1.02.38 1.41-.01a.996.996 0 0 0 0-1.41A7.95 7.95 0 0 1 4 13c0-1 .19-2 .54-2.9L3.33 8C2.5 9.5 2 11.18 2 13Z"/></svg>
@@ -893,6 +723,8 @@
                 
   
   
+    
+  
   
   
     
@@ -901,13 +733,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" checked>
         
           
           <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
@@ -921,7 +751,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_7">
             <span class="md-nav__icon md-icon"></span>
             Working with services
@@ -932,10 +762,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../en/service/sms/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 11h-2V9h2m-4 2h-2V9h2m-4 2H7V9h2m11-7H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg>
+  
+  <span class="md-ellipsis">
+    SMS Messages
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 11h-2V9h2m-4 2h-2V9h2m-4 2H7V9h2m11-7H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg>
@@ -946,6 +796,156 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sending-sms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sending SMS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sending SMS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#request-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Request Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#successful-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Successful Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-sms-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requesting SMS Information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requesting SMS Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#request-example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Request Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#successful-response_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Successful Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deleting-sms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deleting SMS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deleting SMS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#request-example_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Request Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#successful-response_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Successful Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#request-for-sms-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Request for SMS list
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Request for SMS list">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#successful-response_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Successful Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#request-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Request Errors
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -958,7 +958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../en/service/device/" class="md-nav__link">
+      <a href="../device/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.82 12.5c.02-.17.04-.33.04-.5 0-.17-.02-.33-.04-.5l1.08-.81c.1-.07.1-.19.06-.32L9.93 8.64c-.06-.11-.2-.14-.31-.11l-1.28.5c-.27-.2-.56-.36-.87-.49l-.2-1.33c0-.12-.11-.21-.24-.21H5c-.15 0-.26.09-.28.21L4.5 8.53c-.29.12-.58.3-.85.47l-1.28-.5c-.12-.03-.25 0-.31.13l-1.03 1.73c-.06.14-.03.25.07.33l1.08.81c-.02.17-.03.34-.03.5 0 .17.02.33.04.5l-1.09.82c-.1.07-.1.21-.06.32l1.03 1.73c.06.13.2.13.31.13l1.28-.5c.27.18.56.34.87.47l.2 1.32c.01.12.12.21.27.21h2.04c.13 0 .24-.09.25-.21l.21-1.32c.3-.12.59-.3.86-.47l1.28.5c.12.03.25 0 .31-.13L11 13.64c.04-.11 0-.24-.08-.32l-1.1-.82M6 13.75c-1 0-1.8-.78-1.8-1.75S5 10.25 6 10.25s1.8.78 1.8 1.75S7 13.75 6 13.75M17 1H7a2 2 0 0 0-2 2v3h2V4h10v16H7v-2H5v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Z"/></svg>
@@ -1014,28 +1014,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#sending-sms" class="md-nav__link">
     <span class="md-ellipsis">
-      Отправка СМС
+      Sending SMS
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Отправка СМС">
+    <nav class="md-nav" aria-label="Sending SMS">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#request-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Пример запроса
+      Request Example
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#successful-response" class="md-nav__link">
     <span class="md-ellipsis">
-      Успешный ответ
+      Successful Response
     </span>
   </a>
   
@@ -1047,28 +1047,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#requesting-sms-information" class="md-nav__link">
     <span class="md-ellipsis">
-      Запрос информации об СМС
+      Requesting SMS Information
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Запрос информации об СМС">
+    <nav class="md-nav" aria-label="Requesting SMS Information">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#request-example_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Пример запроса
+      Request Example
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#successful-response_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Успешный ответ
+      Successful Response
     </span>
   </a>
   
@@ -1080,28 +1080,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#deleting-sms" class="md-nav__link">
     <span class="md-ellipsis">
-      Удаление СМС
+      Deleting SMS
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Удаление СМС">
+    <nav class="md-nav" aria-label="Deleting SMS">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#request-example_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Пример запроса
+      Request Example
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#successful-response_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Успешный ответ
+      Successful Response
     </span>
   </a>
   
@@ -1113,19 +1113,19 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#request-for-sms-list" class="md-nav__link">
     <span class="md-ellipsis">
-      Запрос списка СМС
+      Request for SMS list
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Запрос списка СМС">
+    <nav class="md-nav" aria-label="Request for SMS list">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+  <a href="#successful-response_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Успешный ответ
+      Successful Response
     </span>
   </a>
   
@@ -1137,9 +1137,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
+  <a href="#request-errors" class="md-nav__link">
     <span class="md-ellipsis">
-      Ошибки в запросах
+      Request Errors
     </span>
   </a>
   
@@ -1160,11 +1160,11 @@
                   
 
 
-  <h1>Сообщения SMS</h1>
+  <h1>SMS Messages</h1>
 
-<h2 id="_1">Отправка СМС</h2>
-<p>Вы должны использовать <code>POST</code> <code>/sms/send</code> <div style="font-size:12px">Более подробную информацию вы можете найти в <a href="https://docs.gosms.ru/request" target="_blank">Запросах</a></div><br></p>
-<h4 id="_2">Пример запроса</h4>
+<h2 id="sending-sms">Sending SMS</h2>
+<p>You should use <code>POST</code> <code>/sms/send</code> <div style="font-size:12px">For more detailed information, refer to the <a href="https://docs.gosms.ru/en/request" target="_blank">Requests</a></div><br></p>
+<h4 id="request-example">Request Example</h4>
 <div class="language-json highlight"><span class="filename">POST: /sms/send</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My message&quot;</span><span class="p">,</span><span class="w">              </span><span class="c1">// string (*required)</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">&quot;phone_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;79999999999&quot;</span><span class="p">,</span><span class="w">        </span><span class="c1">// string (*required)</span>
@@ -1175,55 +1175,55 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Ключ</th>
-<th style="text-align: left;">Тип</th>
-<th style="text-align: left;">Маркер</th>
-<th style="text-align: left;">Значения</th>
+<th style="text-align: left;">Key</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Marker</th>
+<th style="text-align: left;">Values</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: left;"><code>message</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;"><b style="color:#b13f3f">*обязательный</b></td>
-<td style="text-align: left;">Текст отправляемого сообщения</td>
+<td style="text-align: left;"><b style="color:#b13f3f">required</b></td>
+<td style="text-align: left;">The text of the message to be sent</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>phone_number</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;"><b style="color:#b13f3f">*обязательный</b></td>
-<td style="text-align: left;">Номер на который отправляется сообщения</td>
+<td style="text-align: left;"><b style="color:#b13f3f">required</b></td>
+<td style="text-align: left;">The phone number to which the message is being sent</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>device_id</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;"><code>необязательный</code></td>
-<td style="text-align: left;">Cодержит object ID вашего устройства. Посмотреть ID устройства можно в панели управления в разделе <strong>(<a href="https://gosms.ru/devices">Мои устройства</a>)</strong>. Если данное значение установлено, то обработкой данным смс займется именно это устройства и не какое больше. Если значение остается пустым или не передается вовсе, обработкой смс займется любое устройства из вашего списка подключенных устройств. Тем самым вы можете сами задавать какому устройству обрабатывать то или иное сообщение. Это полезно, если у вас подключено хотя-бы два или более устройств. В противном случаи, оставьте значение пустым или не передавайте его вовсе.</td>
+<td style="text-align: left;"><code>optional</code></td>
+<td style="text-align: left;">Contains the object ID of your device. You can find the device ID in the control panel under <a href="https://gosms.ru/devices">My Devices</a>. If this value is set, then only this device will handle the message. If the value is left empty or not passed at all, any device from your list of connected devices will handle the message. This way, you can specify which device processes a particular message. This is useful if you have at least two or more devices connected. Otherwise, leave the value empty or do not pass it at all.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>callback_id</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;"><code>необязательный</code></td>
-<td style="text-align: left;">Работает аналогично <code>device_id</code>, вы сами можете указать, какой Webhook возьмет в обработку событие данного сообщение. Если значение оставить пустым, или не передавать вовсе, будут отрабатывать все веб хуки, у которых включены события на изменения смс сообщений. Object ID значение, вы можете посмотреть в панели управления, пункт меню <strong>(<a href="https://gosms.ru/webhook">Webhook</a>)</strong></td>
+<td style="text-align: left;"><code>optional</code></td>
+<td style="text-align: left;">Works similarly to <code>device_id</code>, allowing you to specify which Webhook will handle the event of this message. If the value is left empty or not passed at all, all webhooks with events for SMS message changes will be processed. You can find the Object ID value in the control panel under <a href="https://gosms.ru/webhook">Webhook</a></td>
 </tr>
 </tbody>
 </table>
-<h4 id="_3">Успешный ответ</h4>
-<div style="font-size:12px">Более подробную информацию вы можете найти в <a href="https://docs.gosms.ru/responses" target="_blank">Ответах</a></div>
+<h4 id="successful-response">Successful Response</h4>
+<div style="font-size:12px">For more detailed information, you can find it in the <a href="https://docs.gosms.ru/en/responses" target="_blank">Responses</a></div>
 
-<p>При успешном ответе, система вернет вам код <code>200</code> и <code>id</code> отправленного сообщения, который можно использовать в дальнейшем для работы с смс в системе.</p>
+<p>Upon a successful response, the system will return a <code>200</code> code and the <code>ID</code> of the sent message, which can be used later for SMS operations within the system.</p>
 <div class="language-json highlight"><span class="filename">HTTP 200 application-json</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span><span class="w"> </span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;6654a4e8f1527149588c89f2&quot;</span><span class="w">  </span><span class="c1">// string </span>
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">}</span>
 </span></code></pre></div>
 <blockquote>
-<p><code>String</code> значения <code>id</code> является соответствием <code class="is-info">primitive.ObjectID</code></p>
+<p><code>String</code> The values are <code>id</code> corresponding <code class="is-info">primitive.ObjectID</code></p>
 </blockquote>
-<h2 id="_4">Запрос информации об СМС</h2>
-<p>Вы должны использовать <code>POST</code> <code>/sms/get</code></p>
-<div style="font-size:12px">Более подробную информацию вы можете найти в <a href="https://docs.gosms.ru/request" target="_blank">Запросах</a></div>
+<h2 id="requesting-sms-information">Requesting SMS Information</h2>
+<p>You should use <code>POST</code> <code>/sms/get</code></p>
+<div style="font-size:12px">For more detailed information, you can find it in the <a href="https://docs.gosms.ru/request" target="_blank">Requests</a></div>
 
-<h4 id="_5">Пример запроса</h4>
+<h4 id="request-example_1">Request Example</h4>
 <div class="language-json highlight"><span class="filename">POST: /sms/get</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span><span class="w">    </span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;6654a4e8f1527149588c89f2&quot;</span><span class="w">  </span><span class="c1">//string (*required)</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="p">}</span>
@@ -1231,23 +1231,23 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Ключ</th>
-<th style="text-align: left;">Тип</th>
-<th style="text-align: left;">Маркер</th>
-<th style="text-align: left;">Значения</th>
+<th style="text-align: left;">Key</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Marker</th>
+<th style="text-align: left;">Values</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: left;"><code>id</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;"><b style="color:#b13f3f">*обязательный</b></td>
-<td style="text-align: left;">Идентификатор запроса СМС, в соответствии primitive.ObjectID, который выдавался вам например при <a href="#отправка-смс">Отправки СМС</a></td>
+<td style="text-align: left;"><b style="color:#b13f3f">*required</b></td>
+<td style="text-align: left;">The ID of the SMS request, corresponding to primitive.ObjectID, which was provided to you, for example, during <a href="#sending-sms">Sending SMS</a></td>
 </tr>
 </tbody>
 </table>
-<h4 id="_6">Успешный ответ</h4>
-<div style="font-size:12px">Более подробную информацию вы можете найти в <a href="https://doc.gosms.ru/responses" target="_blank">Ответах</a></div>
+<h4 id="successful-response_1">Successful Response</h4>
+<div style="font-size:12px">For more detailed information, you can find it in the <a href="https://doc.gosms.ru/en/responses" target="_blank">Responses</a></div>
 
 <div class="language-json highlight"><span class="filename">HTTP 200 application-json</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;6654a4e8f1527149588c89f2&quot;</span><span class="p">,</span><span class="w">      </span><span class="c1">// string    </span>
@@ -1263,60 +1263,60 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Ключ</th>
-<th style="text-align: left;">Тип</th>
-<th style="text-align: left;">Значения</th>
+<th style="text-align: left;">Key</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Values</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: left;"><code>id</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;">Идентификатор СМС, в соответствии primitive.ObjectID</td>
+<td style="text-align: left;">The ID of the SMS, corresponding to primitive.ObjectID</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>message</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;">Текст сообщения</td>
+<td style="text-align: left;">The text of the message</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>status</code></td>
 <td style="text-align: left;">number</td>
-<td style="text-align: left;">Числовой статус сообщения.<br> <kbd>0</kbd> - "ждет обработки",<br> <kbd>1</kbd> - "взято в обработку",<br> <kbd>2</kbd> - "отправлено",<br> <kbd>3</kbd> - "ошибка отправки",<br> <kbd>4</kbd> - "доставлено",<br> <kbd>5</kbd> - "ошибка доставки"</td>
+<td style="text-align: left;">Numerical status of the message:<br> <kbd>0</kbd> - "waiting for processing",<br> <kbd>1</kbd> - "processing",<br> <kbd>2</kbd> - "sent",<br> <kbd>3</kbd> - "send error",<br> <kbd>4</kbd> - "delivered",<br> <kbd>5</kbd> - "delivery error"</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>callback_id</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;">Идентификатор WebHook, в соответствии primitive.ObjectID</td>
+<td style="text-align: left;">WebHook ID, corresponding to primitive.ObjectID</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>device_id</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;">Идентификатор Устройства, в соответствии primitive.ObjectID</td>
+<td style="text-align: left;">Device ID, corresponding to primitive.ObjectID</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>phone_number</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;">Номер телефона</td>
+<td style="text-align: left;">Phone number</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>message_status</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;">Текстовый статус смс, в соответствии с <kbd>status</kbd></td>
+<td style="text-align: left;">Textual status of the SMS, corresponding to the <kbd>status</kbd> field</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>time_create</code></td>
 <td style="text-align: left;">number</td>
-<td style="text-align: left;">Время создания СМС, не путать с доставкой, отправкой и другими статусами. Формат Unix</td>
+<td style="text-align: left;">Time when the SMS was created, in Unix format</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_7">Удаление СМС</h2>
-<p>Вы должны использовать <code>DELETE</code> <code>/sms/del</code></p>
-<div style="font-size:12px">Более подробную информацию вы можете найти в 
-  <a href="https://doc.gosms.ru/requests" target="_blank">Запросах</a></div>
+<h2 id="deleting-sms">Deleting SMS</h2>
+<p>You should use <code>DELETE</code> <code>/sms/del</code></p>
+<div style="font-size:12px">For more detailed information, you can find it 
+  in the <a href="https://doc.gosms.ru/en/requests" target="_blank">Requests</a></div>
 
-<h4 id="_8">Пример запроса</h4>
+<h4 id="request-example_2">Request Example</h4>
 <div class="language-json highlight"><span class="filename">DELETE: /sms/del</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">{</span><span class="w">   </span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;6654a4e8f1527149588c89f2&quot;</span><span class="w">  </span><span class="c1">// string (*required) </span>
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="p">}</span>
@@ -1324,69 +1324,69 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Ключ</th>
-<th style="text-align: left;">Тип</th>
-<th style="text-align: left;">Маркер</th>
-<th style="text-align: left;">Значения</th>
+<th style="text-align: left;">Key</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Marker</th>
+<th style="text-align: left;">Values</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: left;"><code>id</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;"><b style="color:#b13f3f">*обязательный</b></td>
-<td style="text-align: left;">Идентификатор запроса СМС, в соответствии primitive.ObjectID, который выдавался вам например при <a href="#отправка-смс">Отправки СМС</a></td>
+<td style="text-align: left;"><b style="color:#b13f3f">*required</b></td>
+<td style="text-align: left;">The ID of the SMS request, corresponding to primitive.ObjectID, provided to you, for example, during <a href="#sending-sms">Sending SMS</a></td>
 </tr>
 </tbody>
 </table>
-<h4 id="_9">Успешный ответ</h4>
-<div style="font-size:12px">Более подробную информацию вы можете найти в <a href="https://doc.gosms.ru/responses" target="_blank">Ответах</a></div>
+<h4 id="successful-response_2">Successful Response</h4>
+<div style="font-size:12px">For more detailed information, you can find it in <a href="https://doc.gosms.ru/en/responses" target="_blank">Responses</a></div>
 
 <ul>
 <li><b style="color:rgb(29, 129, 39)">HTTP 204 </b><b>No Content</b></li>
 </ul>
-<h2 id="_10">Запрос списка СМС</h2>
-<p>Вы должны использовать <code>GET</code> <code>/sms</code></p>
-<div style="font-size:12px">Более подробную информацию вы можете найти в <a href="https://doc.gosms.ru/requests" target="_blank">Запросах</a></div>
+<h2 id="request-for-sms-list">Request for SMS list</h2>
+<p>You should use <code>GET</code> <code>/sms</code></p>
+<div style="font-size:12px">For more detailed information, you can find it in <a href="https://doc.gosms.ru/en/requests" target="_blank">Requests</a></div>
 
 <p><br></p>
 <ul>
-<li>Пример запроса GET: <code>/sms?limit=5&amp;offset=1&amp;search=79999999999</code></li>
+<li>Example GET request: <code>/sms?limit=5&amp;offset=1&amp;search=79999999999</code></li>
 </ul>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Ключ</th>
-<th style="text-align: left;">Тип</th>
-<th style="text-align: left;">Маркер</th>
-<th style="text-align: left;">Значения</th>
+<th style="text-align: left;">Key</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Marker</th>
+<th style="text-align: left;">Values</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: left;"><code>limit</code></td>
 <td style="text-align: left;">number</td>
-<td style="text-align: left;"><b style="color:#b13f3f">*обязательный</b></td>
-<td style="text-align: left;">Обозначает количество записей, которое необходимо вернуть. Минимум <kbd>1</kbd> запись и максимум <kbd>100</kbd> записей нас траницу.</td>
+<td style="text-align: left;"><b style="color:#b13f3f">*required</b></td>
+<td style="text-align: left;">Indicates the number of records to retrieve. Minimum of <kbd>1</kbd> record and maximum of <kbd>100</kbd> records per page.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>offset</code></td>
 <td style="text-align: left;">number</td>
-<td style="text-align: left;"><code>необязательный</code></td>
-<td style="text-align: left;">Указывает на смещение, относительно начала списка. Если параметр не задан, поумолчанию <kbd>1</kbd>, то есть, выводить с первой страницы.</td>
+<td style="text-align: left;"><code>optional</code></td>
+<td style="text-align: left;">Specifies the offset relative to the beginning of the list. If the parameter is not specified, by default, it is <kbd>1</kbd>, meaning to display from the first page.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>search</code></td>
 <td style="text-align: left;">string</td>
-<td style="text-align: left;"><code>необязательный</code></td>
-<td style="text-align: left;">Позволяет указать набор символов для поиска. Система ищет частичные совпадения, без учета регистра по полям: <kbd>message</kbd> - текст смс, <kbd>message_status</kbd> - текстовый статус смс, <kbd>phone_number</kbd> - номер телефона.</td>
+<td style="text-align: left;"><code>optional</code></td>
+<td style="text-align: left;">Allows you to specify a set of characters to search for. The system searches for partial matches, regardless of case, in the fields: <kbd>message</kbd> - SMS text, <kbd>message_status</kbd> - SMS text status, <kbd>phone_number</kbd> - phone number.</td>
 </tr>
 </tbody>
 </table>
-<h4 id="_11">Успешный ответ</h4>
-<div style="font-size:12px">Более подробную информацию вы можете найти в <a href="https://doc.gosms.ru/responses" target="_blank">Ответах</a></div>
+<h4 id="successful-response_3">Successful Response</h4>
+<div style="font-size:12px">For more detailed information, you can find it in <a href="https://doc.gosms.ru/en/responses" target="_blank">Responses</a></div>
 
-<p>К примеру, вы выполнили запрос <code>/sms?limit=2&amp;offset=1</code></p>
+<p>For example, you made a request <code>/sms?limit=2&amp;offset=1</code></p>
 <div class="language-json highlight"><span class="filename">HTTP 200 application-json</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="p">{</span>
 </span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span><span class="nt">&quot;pagination&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="nt">&quot;total_records&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">95</span><span class="p">,</span>
@@ -1420,41 +1420,41 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Ключ</th>
-<th style="text-align: left;">Тип</th>
-<th style="text-align: left;">Значения</th>
+<th style="text-align: left;">Key</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Values</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: left;"><code>pagination</code></td>
 <td style="text-align: left;">object</td>
-<td style="text-align: left;">Обьект, содержащий в себе ключи <kbd>total_records</kbd>, <kbd>limit</kbd>, <kbd>offset</kbd></td>
+<td style="text-align: left;">An object containing keys <kbd>total_records</kbd>, <kbd>limit</kbd>, <kbd>offset</kbd></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>total_records</code></td>
 <td style="text-align: left;">number</td>
-<td style="text-align: left;">Указывает на общее количество смс у вас в базе.</td>
+<td style="text-align: left;">Indicates the total number of SMS in your database.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>limit</code></td>
 <td style="text-align: left;">number</td>
-<td style="text-align: left;">Указывает на количество записей, которое в данный момент возвращено. Соответствует указанному параметру <kbd>limit</kbd></td>
+<td style="text-align: left;">Indicates the number of records currently returned. Corresponds to the specified parameter <kbd>limit</kbd></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>offset</code></td>
 <td style="text-align: left;">number</td>
-<td style="text-align: left;">Указывает на смещение, относительно начала списка. Соответствует параметру offset</td>
+<td style="text-align: left;">Indicates the offset relative to the beginning of the list. Corresponds to the offset parameter</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>sms_list</code></td>
 <td style="text-align: left;">[]object</td>
-<td style="text-align: left;">Представляет собой массив обьектов. Каждый элемент массива <kbd>sms_list</kbd> представляет одно SMS сообщение и содержит различные свойства</td>
+<td style="text-align: left;">Represents an array of objects. Each element of the <kbd>sms_list</kbd> array represents one SMS message and contains various properties</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_12">Ошибки в запросах</h2>
-<p>При выполнении запроса к ресурсам, могут возникать ошибки. Более подробно ознакомиться со всеми возможными ошибками и их сценариями, вы можете на странице <a href="https://docs.gosms.ru/code-error">Коды ошибок системы</a></p>
+<h2 id="request-errors">Request Errors</h2>
+<p>When making requests to resources, errors may occur. You can learn more about all possible errors and their scenarios on the <a href="https://docs.gosms.ru/en/code-error">System Error Codes</a> page.</p>
 
 
 
@@ -1495,7 +1495,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Нижний колонтитул" >
         
           
-          <a href="../../rate-limit/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Ограничение скорости запросов">
+          <a href="../../rate-limit/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Request Rate Limiting">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1505,20 +1505,20 @@
                 Назад
               </span>
               <div class="md-ellipsis">
-                Ограничение скорости запросов
+                Request Rate Limiting
               </div>
             </div>
           </a>
         
         
           
-          <a href="../device/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Работа с устройствами">
+          <a href="../device/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Device Management">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Вперед
               </span>
               <div class="md-ellipsis">
-                Работа с устройствами
+                Device Management
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1613,10 +1613,10 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.expand", "navigation.sections", "navigation.path", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.code.annotate", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": {"default": "stable", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "navigation.expand", "navigation.sections", "navigation.path", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "search.highlight", "announce.dismiss", "navigation.footer", "content.code.copy", "content.code.select", "content.code.annotate", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": {"default": "stable", "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
