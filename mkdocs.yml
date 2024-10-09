@@ -1,0 +1,154 @@
+site_name: Документация API GoSMS
+
+site_url: https://docs.gosms.ru/
+
+# Автор (или авторы) сайта. Добавляется в html-заголовок каждой страницы.
+site_author: GoSMS Team
+
+repo_url: https://github.com/715kg/doc.gosms
+
+nav:
+  - 'Ru version':
+    - 'index.md'
+    - 'request.md' #Заросы
+    - 'responses.md' #Ответы
+    - 'auth.md' #Аутентификация
+    - 'code-error.md' #Коды ошибок
+    - 'rate-limit.md' #Ограничение запросов
+    
+    - 'Работа с сервисами':
+      - 'service/sms.md'
+      - 'service/device.md'
+      
+
+  - 'En version':
+    - 'en/index.md'
+    - 'en/request.md' #Заросы
+    - 'en/responses.md' #Ответы 
+    - 'en/auth.md' #Аутентификация
+    - 'en/code-error.md' #Коды ошибок
+    - 'en/rate-limit.md' #Ограничение запросов
+
+    - 'Working with services':
+      - 'en/service/sms.md'
+      - 'en/service/device.md'
+  # - About:
+  #   - 'License': 'license.md'
+  #   - 'Release Notes': 'release-notes.md'
+theme:
+  palette:
+    # Palette светлая
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Palette темная
+    - scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode 
+
+    
+  name: material
+  features:
+    #- navigation.tabs
+    #- toc.integrate
+    - navigation.top
+    - navigation.expand
+    - navigation.sections
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - search.highlight
+    - announce.dismiss
+    - navigation.footer
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+  #language: ru 
+  logo: assets/img/logo/logo_go_sms.webp
+  favicon: assets/img/logo/logo_go_sms.webp
+  
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
+  - tags
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
+  - glightbox
+  #- material-relative-language-selector
+  
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+      
+    - name: Русский
+      link: /ru/
+      lang: ru
+      
+  social:
+    - icon: fontawesome/brands/telegram 
+      link: https://t.me/gosms_ru
+      name: Telegram
+    - icon: fontawesome/brands/vk 
+      link: https://vk.com/gosms_ru
+      name: Vkontakte
+  
+  version:
+    provider: mike
+    default: stable
+  generator: false
+  
+
+
+  consent:
+    actions:
+      - accept
+      - reject 
+    title: Cookie consent
+    description: >- 
+      Мы используем файлы cookie, чтобы распознавать ваши повторные посещения и предпочтения, а также для измерения эффективности нашей документации и того, находят ли пользователи то, что ищут. С вашего согласия вы помогаете нам улучшить нашу документацию.
+
+
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+  
+
+
+copyright: Copyright &copy; 2024  GoSMS Project
