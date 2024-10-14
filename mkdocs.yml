@@ -7,8 +7,9 @@ site_author: GoSMS Team
 
 repo_url: https://github.com/715kg/doc.gosms
 
+
 nav:
-  - 'Ru version':
+  - Главная:
     - 'index.md'
     - 'request.md' #Заросы
     - 'responses.md' #Ответы
@@ -16,22 +17,15 @@ nav:
     - 'code-error.md' #Коды ошибок
     - 'rate-limit.md' #Ограничение запросов
     
-    - 'Работа с сервисами':
+    - Работа с сервисами:
       - 'service/sms.md'
       - 'service/device.md'
-      
+    
+  - 'Инструкции сервиса':
+    - 'Android смартфон':
+      - 'instructions/activity-control.md'
 
-  - 'En version':
-    - 'en/index.md'
-    - 'en/request.md' #Заросы
-    - 'en/responses.md' #Ответы 
-    - 'en/auth.md' #Аутентификация
-    - 'en/code-error.md' #Коды ошибок
-    - 'en/rate-limit.md' #Ограничение запросов
-
-    - 'Working with services':
-      - 'en/service/sms.md'
-      - 'en/service/device.md'
+  
   # - About:
   #   - 'License': 'license.md'
   #   - 'Release Notes': 'release-notes.md'
@@ -53,6 +47,8 @@ theme:
 
     
   name: material
+  
+
   features:
     #- navigation.tabs
     #- toc.integrate
@@ -60,9 +56,9 @@ theme:
     - navigation.expand
     - navigation.sections
     - navigation.path
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
+    #- navigation.instant
+    #- navigation.instant.prefetch
+    #- navigation.instant.progress
     - search.highlight
     - announce.dismiss
     - navigation.footer
@@ -80,6 +76,8 @@ plugins:
         - en
         - ru
   - tags
+  - mkdocs-video:
+      mark: "custom-marker"
   - mike:
       # These fields are all optional; the defaults are as below...
       alias_type: symlink
@@ -90,9 +88,28 @@ plugins:
       css_dir: css
       javascript_dir: js
   - glightbox
-  #- material-relative-language-selector
-  
-
+  ##- material-relative-language-selector
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          build: true
+          site_name: "GoSMS API Documentation"
+          
+          nav_translations:
+            Главная: Home
+            Работа с сервисами: Working with services
+            Инструкции сервиса: Instructions for services
+            Android смартфон: Android smartphone
+        
+        - locale: ru
+          name: Русский
+          default: true
+          build: true
+         
+            
+        
 extra:
   alternate:
     - name: English
@@ -118,13 +135,17 @@ extra:
   
 
 
+  
   consent:
     actions:
       - accept
-      - reject 
-    title: Cookie consent
-    description: >- 
-      Мы используем файлы cookie, чтобы распознавать ваши повторные посещения и предпочтения, а также для измерения эффективности нашей документации и того, находят ли пользователи то, что ищут. С вашего согласия вы помогаете нам улучшить нашу документацию.
+      - reject
+    title:
+      Cookie consent
+      
+    description: 
+      Мы используем файлы cookie, чтобы распознавать ваши повторные посещения и предпочтения, а также для измерения эффективности нашей документации и того, находят ли пользователи то, что ищут. С вашего согласия вы помогаете нам улучшить нашу документацию.<hr>
+      We use cookies to recognize your repeat visits and preferences, as well as to measure the effectiveness of our documentation and if users find what they are searching for. With your consent, you help us improve our documentation.
 
 
 
