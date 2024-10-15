@@ -5,23 +5,22 @@ site_url: https://docs.gosms.ru/
 # Автор (или авторы) сайта. Добавляется в html-заголовок каждой страницы.
 site_author: GoSMS Team
 
-repo_url: https://github.com/715kg/doc.gosms
+#repo_url: https://github.com/715kg/doc.gosms
 
 
 nav:
-  - Главная:
-    - 'index.md'
-    - 'request.md' #Заросы
-    - 'responses.md' #Ответы
-    - 'auth.md' #Аутентификация
-    - 'code-error.md' #Коды ошибок
-    - 'rate-limit.md' #Ограничение запросов
+  - 'index.md'
+  - 'request.md' #Заросы
+  - 'responses.md' #Ответы
+  - 'auth.md' #Аутентификация
+  - 'code-error.md' #Коды ошибок
+  - 'rate-limit.md' #Ограничение запросов
     
-    - Работа с сервисами:
-      - 'service/sms.md'
-      - 'service/device.md'
+  - Работа с сервисами:
+    - 'service/sms.md'
+    - 'service/device.md'
     
-  - 'Инструкции сервиса':
+  - 'Инструкции проекта':
     - 'Android смартфон':
       - 'instructions/activity-control.md'
 
@@ -78,6 +77,9 @@ plugins:
   - tags
   - mkdocs-video:
       mark: "custom-marker"
+      css_style:
+        width: "100%"
+        height: "22.172vw"
   - mike:
       # These fields are all optional; the defaults are as below...
       alias_type: symlink
@@ -100,7 +102,7 @@ plugins:
           nav_translations:
             Главная: Home
             Работа с сервисами: Working with services
-            Инструкции сервиса: Instructions for services
+            Инструкции проекта: Instructions for projects
             Android смартфон: Android smartphone
         
         - locale: ru
