@@ -7,7 +7,7 @@ icon: material/camera-control
 
 Activity control or power control might limit app functionality in the background to save battery. To disable this for a specific app, follow these steps:
 
-![custom-marker](2024-10-15 00.47.12.mp4)
+<iframe width="720" height="405" src="https://rutube.ru/play/embed/dbcaffdd0bb27ccdef2a58fcb0333cf5/?p=hXPKEvXUKyjiNP-_FmeG0A" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 1. *Open your device settings:*
    Find and tap the "Settings" icon.
