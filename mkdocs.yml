@@ -17,8 +17,8 @@ nav:
   - 'rate-limit.md' #Ограничение запросов
     
   - Работа с сервисами:
-    - 'service/sms.md'
-    - 'service/device.md'
+      - 'service/sms.md'
+      - 'service/device.md'
     
   - 'Инструкции проекта':
     - 'Android смартфон':

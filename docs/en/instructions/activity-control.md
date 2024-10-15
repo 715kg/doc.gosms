@@ -12,7 +12,7 @@ Activity control or power control might limit app functionality in the backgroun
   <figcaption>You will receive notifications from the application, you can disable control by clicking on the button (Disable). If for some reason you are not transferred to the optimization settings, you can disable control using the instructions below.  </figcaption>
 </figure>
 
-<iframe width="720" height="405" src="https://rutube.ru/play/embed/dbcaffdd0bb27ccdef2a58fcb0333cf5/?p=hXPKEvXUKyjiNP-_FmeG0A" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe width="720" height="405" src="https://rutube.ru/play/embed/70ef371116a1b7786a90461da6d63cd1/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 1. *Open your device settings:*
    Find and tap the "Settings" icon.
