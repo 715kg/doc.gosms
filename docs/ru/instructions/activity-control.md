@@ -8,6 +8,12 @@ icon: material/camera-control
 Контроль активности или контроль питания может ограничивать работу приложений в фоне для экономии батареи. Чтобы отключить это для конкретного приложения, выполните следующие шаги:
 
 
+
+> <figure markdown="span">
+  ![goSMS app](image.png){ width="200" }
+  <figcaption>Вы получите уведомления от приложение, вы можете отключить контроль нажав на кнопку (Отключить). Если по какой то причине вас не перевело в настройки оптимизации, вы можете отключить контроль по инструкции ниже.  </figcaption>
+</figure>
+
 <iframe width="720" height="405" src="https://rutube.ru/play/embed/dbcaffdd0bb27ccdef2a58fcb0333cf5/?p=hXPKEvXUKyjiNP-_FmeG0A" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 1. *Откройте настройки устройства:*
