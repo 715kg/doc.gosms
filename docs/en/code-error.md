@@ -10,29 +10,29 @@ There are many error codes in the system. Below is the complete list of error co
 
 | Code | Description |
 |:-|:-|
-| <kbd>1000</kbd> | [Unknown error](#1000) |
-| <kbd>1001</kbd> | [Invalid Json request](#1001) |
-| <kbd>1002</kbd> | [Api is inactive. Activate it in the control panel before using it.](#1002) |
-| <kbd>1003</kbd> | [Api does not exist.](#1003) |
-| <kbd>1004</kbd> | [You have not registered any devices. You can do this through the control panel in the "My devices" section.](#1004) |
-| <kbd>1005</kbd> | [Sending SMS is not allowed for this API. Enable this option in your API settings.](#1005) |
-| <kbd>1006</kbd> | [Maximum number of SMS on your tariff plan.](#1006) |
-| <kbd>1007</kbd> | [Receiving information about SMS is not allowed for this API. Enable this option in your API settings.](#1007) |
-| <kbd>1008</kbd> | [SMS with this id does not exist.](#1008) |
+| <kbd>1000</kbd> | [Unknown error](#error-1000) |
+| <kbd>1001</kbd> | [Invalid Json request](#error-1001) |
+| <kbd>1002</kbd> | [Api is inactive. Activate it in the control panel before using it.](#error-1002) |
+| <kbd>1003</kbd> | [Api does not exist.](#error-1003) |
+| <kbd>1004</kbd> | [You have not registered any devices. You can do this through the control panel in the "My devices" section.](#error-1004) |
+| <kbd>1005</kbd> | [Sending SMS is not allowed for this API. Enable this option in your API settings.](#error-1005) |
+| <kbd>1006</kbd> | [Maximum number of SMS on your tariff plan.](#error-1006) |
+| <kbd>1007</kbd> | [Receiving information about SMS is not allowed for this API. Enable this option in your API settings.](#error-1007) |
+| <kbd>1008</kbd> | [SMS with this id does not exist.](#error-1008) |
 
 
 | Code | Description |
 |:-|:-|
-| <kbd>2001</kbd> | [Invalid phone number specified in the phone_number field.](#2001) |
-| <kbd>2002</kbd> | [Invalid message text specified in the message field.](#2002) |
-| <kbd>2003</kbd> | [Invalid id format.](#2003-2004-2005) |
-| <kbd>2004</kbd> | [Invalid callback_id format.](#2003-2004-2005) |
-| <kbd>2005</kbd> | [Invalid device_id format.](#2003-2004-2005) |
+| <kbd>2001</kbd> | [Invalid phone number specified in the phone_number field.](#error-2001) |
+| <kbd>2002</kbd> | [Invalid message text specified in the message field.](#error-2002) |
+| <kbd>2003</kbd> | [Invalid id format.](#error-2003-2004-2005) |
+| <kbd>2004</kbd> | [Invalid callback_id format.](#error-2003-2004-2005) |
+| <kbd>2005</kbd> | [Invalid device_id format.](#error-2003-2004-2005) |
 
 
 | Code | Description |
 |:-|:-|
-| <kbd>3000</kbd> | [Your account is blocked by the administration. Contact the project's technical support.](#error-3000) |
+| <kbd>3000</kbd> | [Your account is blocked by the administration. Contact the project's technical support.](#error-error-3000) |
 
 ## Solutions for Errors
 
