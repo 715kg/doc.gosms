@@ -1,129 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://docs.gosms.ru/2.0/</loc>
+        <loc>https://docs.gosms.ru/3.0/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/auth/</loc>
+        <loc>https://docs.gosms.ru/3.0/auth/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/auth/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/auth/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/auth/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/auth/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/code-error/</loc>
+        <loc>https://docs.gosms.ru/3.0/code-error/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/code-error/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/code-error/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/code-error/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/code-error/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/rate-limit/</loc>
+        <loc>https://docs.gosms.ru/3.0/rate-limit/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/rate-limit/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/rate-limit/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/rate-limit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/rate-limit/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/request/</loc>
+        <loc>https://docs.gosms.ru/3.0/request/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/request/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/request/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/request/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/request/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/responses/</loc>
+        <loc>https://docs.gosms.ru/3.0/responses/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/responses/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/responses/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/responses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/responses/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/instructions/activity-control/</loc>
+        <loc>https://docs.gosms.ru/3.0/instructions/activity-control/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/instructions/activity-control/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/instructions/activity-control/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/instructions/activity-control/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/instructions/activity-control/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/service/device/</loc>
+        <loc>https://docs.gosms.ru/3.0/service/device/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/service/device/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/service/device/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/service/device/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/service/device/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/service/sms/</loc>
+        <loc>https://docs.gosms.ru/3.0/service/sms/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0/service/sms/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0en/service/sms/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0/service/sms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0en/service/sms/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/auth/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/auth/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/auth/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0auth/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/auth/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0auth/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/code-error/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/code-error/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/code-error/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0code-error/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/code-error/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0code-error/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/rate-limit/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/rate-limit/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/rate-limit/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0rate-limit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/rate-limit/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0rate-limit/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/request/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/request/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/request/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0request/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/request/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0request/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/responses/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/responses/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/responses/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0responses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/responses/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0responses/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/instructions/activity-control/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/instructions/activity-control/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/instructions/activity-control/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0instructions/activity-control/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/instructions/activity-control/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0instructions/activity-control/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/service/device/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/service/device/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/service/device/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0service/device/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/service/device/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0service/device/"/>
     </url>
     <url>
-        <loc>https://docs.gosms.ru/2.0/en/service/sms/</loc>
+        <loc>https://docs.gosms.ru/3.0/en/service/sms/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/2.0/en/service/sms/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/2.0service/sms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.gosms.ru/3.0/en/service/sms/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.gosms.ru/3.0service/sms/"/>
     </url>
 </urlset>
