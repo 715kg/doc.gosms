@@ -72,7 +72,7 @@ theme:
 plugins:
   - search:
       lang: 
-        #- en
+        - en
         - ru
   - tags
   - mkdocs-video:
@@ -114,12 +114,12 @@ plugins:
         
 extra:
   alternate:
-    - name: English
-      link: /en/
-      lang: en
+    # - name: English
+    #   link: /en/
+    #   lang: en
       
     - name: Русский
-      link: /ru/
+      link: /
       lang: ru
       
   social:
